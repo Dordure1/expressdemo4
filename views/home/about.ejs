@@ -1,0 +1,12 @@
+<h1>A propos</h1>
+
+<h2>Liste des developpeurs </h2>
+
+<p>Dev Lead : <%=lead.firstName %> </p>
+
+<p>Les Pignoufs</p>
+<ul>
+    <% for (let dev of devs) { %>
+        <li> <%= dev.firstName %> </li>
+    <% }%>
+</ul>
